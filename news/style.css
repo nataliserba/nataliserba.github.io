@@ -1,9 +1,29 @@
 
-  
-  
-  
  
+*, *::before, *::after {
+	box-sizing: border-box;
+}
 
+html {
+	box-sizing: border-box;
+	min-height: 100%;
+}
+
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: normal;	
+	font-size: 13px;
+	background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
+}
+
+.news-wrapper {
+	max-width: 800px;
+	margin: 120px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', Arial, sans-serif;
  	font-weight: bold;
 }
 
