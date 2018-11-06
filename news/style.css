@@ -6,7 +6,10 @@ html {
   box-sizing: border-box;
   min-height: 100%;
 }
-
+Span{
+Font-size:14px;
+Font-weight:normal;
+}
 .fa-clock {
   color: #96c13c;
   text-shadow: 2px 2px 0 #333; 
