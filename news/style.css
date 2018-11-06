@@ -1,85 +1,109 @@
- 
 *, *::before, *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	box-sizing: border-box;
-	min-height: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
 }
 
-
+.fa-clock-o {
+  color: #96c13c; /* Цвет иконки */
+  text-shadow: 2px 2px 0 #333; 
+}
 body {
-	font-family: 'Open Sans', Arial, sans-serif;
-	font-weight: normal;	
-	font-size: 13px;
-	background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: normal;	
+  font-size: 13px;
+  background: linear-gradient(to bottom, #00A3FF, #FFF94C) 0 0 no-repeat;
 }
 
 .news-wrapper {
-	max-width: 800px;
-	margin: 120px auto;
+  max-width: 800px;
+  margin: 120px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'PT Sans', Arial, sans-serif;
- 	font-weight: bold;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
 }
 
 
 h1 {	
-	font-size: 36px;	
-	text-transform: uppercase;
-	color: white;
-	text-align: center;
+  font-size: 36px;	
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
 }
 
 article {
-	background: white;
-	width: 360px;	
-	max-height: 130px;
-	border-radius: 4px;
-	float: left;
+  background: white;
+  width: 360px;	
+  max-height: 130px;
+  border-radius: 4px;
+  margin: 10px;
+  float: left;
 }
-
+.ar2 {
+  background: white;
+  width: 360px;	
+  max-height: 130px;
+  border-radius: 4px;
+  margin: 10px;
+  float: right;
+}
+.ar3 {
+  background: url(osin.jpg);
+  width: 360px;	
+  max-height: 130px;
+  border-radius: 4px;
+  margin: 10px;
+  float: right;
+}
+.ar4 {
+  background: url(osin.jpg);
+  width: 360px;	
+  max-height: 130px;
+  border-radius: 4px;
+  margin: 10px;
+  float: left;
+}
 article .image-holder {
-	width: 37.22%;
+  width: 37.22%;
 }
 
 article .content-holder {
-	width: 62.78%;
-	padding: 15px 15px 15px 20px;
+  width: 62.78%;
+  padding: 15px 15px 15px 20px;
 }
 
 article .content-holder h3 {
-	text-transform: uppercase;
-	font-size: 11px;
-	color: #00AFEF;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #00AFEF;
 }
 
 article .content-holder p {
-	font-size: 12px;
-	text-align: left;
+  font-size: 12px;
+  text-align: left;
 }
 
 a.show-more {
-	display: inline-block;
-	margin-top: 10px;
-	color: #3C8204;
+  display: inline-block;
+  margin-top: 10px;
+  color: #3C8204;
 }
 
-
-
+.text2{
+  font-size: 16px;
+  color: aliceblue;
+}
 article div {
-	float: left;
+  float: left;
 }
 
 .clearfix::after {
-	content: '';
-	display: table;
-	clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
-.fa fa-clock-o { color: #f15a22; }
- 
-  
- 
