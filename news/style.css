@@ -7,9 +7,10 @@ html {
   min-height: 100%;
 }
 
-.fa-clock-o {
-  color: #96c13c; /* Цвет иконки */
+.fa-clock {
+  color: #96c13c;
   text-shadow: 2px 2px 0 #333; 
+ Font-size: 16px;
 }
 body {
   font-family: 'Open Sans', Arial, sans-serif;
