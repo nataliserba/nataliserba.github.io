@@ -6,12 +6,13 @@ html {
   box-sizing: border-box;
   min-height: 100%;
 }
-.flex-container  > li {
+.flex-container  > h3 {
   width: 100%;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 14px;
+  color: #00AFEF; 
 }
 .flex-container {
   background-color: aliceblue;
