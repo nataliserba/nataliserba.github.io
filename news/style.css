@@ -6,19 +6,17 @@ html {
   box-sizing: border-box;
   min-height: 100%;
 }
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
+.flex-container  > li {
+  width: 100%;
   margin: 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 14px;
+}
+.flex-container {
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: nowrap;
 }
 Span{
 Font-size:14px;
