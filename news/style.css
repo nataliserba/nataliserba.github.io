@@ -6,6 +6,10 @@ html {
   box-sizing: border-box;
   min-height: 100%;
 }
+.foterdiv {
+border-color: #363636;
+}
+
 .flex-container  > h3 {
   width: 100%;
   margin: 10px;
