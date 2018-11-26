@@ -20,14 +20,15 @@ function squre()
  s=pi*r*r;
 //document.writeln("Результат S : " + s);
  return (s);
+  
  
   }
 
-function showanswer (){
+
  
-  var d=document.getElementById('answer');
-  d.innerHTML=5*5;
-}
+  var s=document.getElementById('answer');
+s.innerHTML=3.14*5*5;
+
 
 
 //p.addEventListener('onclick',squre);
