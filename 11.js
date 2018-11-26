@@ -15,19 +15,16 @@ When you're done, you can delete all of this grey text, it's just a comment.
 function squre()
 {
   const pi=3.14;
- var s,r;
-   r=5;
+  var s,r;
+  r=5;
+
  s=pi*r*r;
 //document.writeln("Результат S : " + s);
+  var res_el=document.getElementById('answer');
+  res_el.innerHTML=s;
  return (s);
-  
- 
-  }
+}
 
-
- 
-  var s=document.getElementById('answer');
-s.innerHTML=3.14*5*5;
 
 
 
