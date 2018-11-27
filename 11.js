@@ -28,9 +28,9 @@ function squre()
 
 function number(){
   var i = 22;
-  while (i < 30) {
+  while (i <= 30) {
     var newLi = document.createElement('li');
-    newLi.innerHTML = i;
+    newLi.innerHTML = "число " + i;
     numbers.appendChild(newLi);
     i++;}
    // alert( "число " + i );
