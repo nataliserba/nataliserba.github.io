@@ -25,7 +25,15 @@ function squre()
  return (s);
 }
 
-
+function number(){
+  for (var i = 22; i <= 30; i++) {
+    alert( "число " + i );
+    //var res_n=document.getElementById('numbers');
+    //res_n.innerHTML=i;
+    //return (i);
+  }
+}
+  
 
 
 //p.addEventListener('onclick',squre);
