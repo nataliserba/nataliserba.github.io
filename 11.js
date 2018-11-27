@@ -25,14 +25,17 @@ function squre()
  return (s);
 }
 
+
 function number(){
-  for (var i = 22; i <= 30; i++) {
-    alert( "число " + i );
-    //var res_n=document.getElementById('numbers');
-    //res_n.innerHTML=i;
-    //return (i);
-  }
+  var i = 22;
+  while (i < 30) {
+    var newLi = document.createElement('li');
+    newLi.innerHTML = i;
+    numbers.appendChild(newLi);
+    i++;}
+   // alert( "число " + i );
 }
+  
   
 
 
