@@ -20,6 +20,12 @@ section h3.section-subheading {
 .text-muted {
   color: #a31029!important;
 }
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+  margin-left: auto;}
 
 .text-center {
   text-align: center!important;
