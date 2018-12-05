@@ -5,7 +5,31 @@
 body {
   background-color: #BAC073;
       }
+@media (min-width: 576px)
+  .container {
+    max-width: 540px;
+}
+section h3.section-subheading {
+  font-size: 28px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: 'Neucha', cursive;
+}
+.text-muted {
+  color: #a31029!important;
+}
 
+.text-center {
+  text-align: center!important;
+}
+ .col-xl-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;}
 header{
   background-image: url(venecija.jpg);
   border: 3px solid #4b4e1d;
@@ -16,6 +40,19 @@ header{
   width: 100%;
   position: relative;
 }
+container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;}
+
+.p
+{font: 300 italic 33px @brand-font;
+text-transform: uppercase;
+  margin-bottom: 0;
+align-content: center;
+padding-left: 200;}
 
 .top-menu {
   background: rgba(255,255,255,.5);
@@ -110,8 +147,8 @@ h1 {
   display: flex;
   flex-wrap: nowrap;
 }
-.fa-umbrella-beach {
-  color: #9b280c; /* Цвет иконки */
+.fa-umbrella-beach  {
+  color: #a22c0f; /* Цвет иконки */
   text-shadow: 2px 2px 0 #333; 
 }
 span{
