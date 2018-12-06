@@ -212,7 +212,11 @@ a.show-more {
   margin-top: 10px;
   color: #3C8204;
 }
-
+.texth{
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #a31029;
+}
 .text2{
   font-size: 16px;
   color: #a31029;
@@ -220,7 +224,10 @@ a.show-more {
   text-align: center
 }
 .text3{
-  font-size: 14px;
+    color: #2e2828;
+    font-size: 22px;
+  line-height: 1.5;
+  font-family: Brush Script MT, Brush Script Std, cursive;
   }
 
 .clearfix::after {
